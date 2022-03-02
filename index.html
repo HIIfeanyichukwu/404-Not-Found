@@ -16,6 +16,11 @@
       href="https://devchallenges.io/"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
@@ -24,6 +29,11 @@
     <title>Devchallenges</title>
 
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
       body {
         font-family: "Poppins", sans-serif;
       }
@@ -61,8 +71,96 @@
     </style>
   </head>
   <body>
+    <style>
+      img {
+        width: 100%;
+      }
+
+      .container {
+        margin-left: 24px;
+      }
+
+      .note {
+        text-transform: uppercase;
+        font-weight: 700;
+        /* position: absolute; */
+        /* width: 133px; */
+        /* height: 25px; */
+        /* left: 24px; */
+        /* top: 20px; */
+
+        font-family: Inconsolata;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: -0.08em;
+        text-transform: uppercase;
+
+        color: #333333;
+        margin-bottom: 64px;
+        margin-top: 20px;
+      }
+
+      .scare-crow {
+        width: 286.83px;
+        height: 238px;
+        margin-bottom: 60px;
+      }
+
+      .info h1 {
+        font-family: 'Space Mono', monospace;
+        margin-bottom: 30px;
+        font-weight: 700;
+        font-size: 48px;
+        letter-spacing: -0.035em;
+        color: #333333;
+      }
+      .info p {
+        font-family: 'Space Mono', monospace;
+        font-weight: 400;
+        margin-bottom: 66px;
+        font-size: 18px;
+        line-height: 27px;
+        color: #4f4f4f;
+        letter-spacing: -0.035em;
+
+      }
+
+      button {
+        margin-bottom: 114px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 20.73px;
+        letter-spacing: -0.035em;
+        background-color: #333333;
+        color: #fff;
+        line-height: 21px;
+        font-weight: bold;
+        font-style: normal;
+        font-family: 'Space Mono', monospace;
+        padding: 24px;
+        border: none;
+      }
+
+      .footer p {
+        font-size: 14px;
+        font-family: 'Montserrat';
+        color: #BDBDBD;
+        line-height: 17px;
+        /* text-align: center; */
+        margin-left: 46px;
+        /* margin-right: 42px; */
+        margin-bottom: 24px;
+      }
+      .footer a {
+        color: #BDBDBD;
+      }
+    </style>
     <div class="container">
-      <p>404 not found</p>
+      <p class="note">404 not found</p>
       <section class="notice">
         <figure class="scare-crow">
           <img src="./Scarecrow.png" alt="scare-crow image">
