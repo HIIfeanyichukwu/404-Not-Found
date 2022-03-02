@@ -83,12 +83,7 @@
       .note {
         text-transform: uppercase;
         font-weight: 700;
-        /* position: absolute; */
-        /* width: 133px; */
-        /* height: 25px; */
-        /* left: 24px; */
-        /* top: 20px; */
-
+        
         font-family: Inconsolata;
         font-style: normal;
         font-weight: bold;
@@ -112,7 +107,7 @@
         font-family: 'Space Mono', monospace;
         margin-bottom: 30px;
         font-weight: 700;
-        font-size: 48px;
+        font-size: 41px;
         letter-spacing: -0.035em;
         color: #333333;
       }
@@ -120,15 +115,15 @@
         font-family: 'Space Mono', monospace;
         font-weight: 400;
         margin-bottom: 66px;
-        font-size: 18px;
+        font-size: 17px;
         line-height: 27px;
         color: #4f4f4f;
         letter-spacing: -0.035em;
-
+        padding-right: 2.5px;
       }
 
       button {
-        margin-bottom: 114px;
+        margin-bottom: 100px;
         text-transform: uppercase;
         font-weight: 700;
         font-style: normal;
@@ -151,12 +146,50 @@
         color: #BDBDBD;
         line-height: 17px;
         /* text-align: center; */
-        margin-left: 46px;
+        /* margin-left: 46px; */
         /* margin-right: 42px; */
         margin-bottom: 24px;
       }
       .footer a {
         color: #BDBDBD;
+      }
+
+      @media (min-width: 375px)
+      {
+        
+
+        .container {
+          margin-left: 24px;
+        }
+
+        .note {
+          font-size: 24px;
+        }
+
+        .scare-crow {
+          width: 286.83px;
+          height: 238px;
+        }
+
+        .info h1 {
+          font-size: 48px;
+        }
+        .info p {
+          font-size: 18px;
+        }
+
+        button {
+          font-size: 14px;
+          padding: 24px;
+        }
+
+        .footer p {
+          font-size: 14px;
+          /* text-align: center; */
+          /* margin-left: 46px; */
+          /* margin-right: 42px; */
+        }
+  
       }
     </style>
     <div class="container">
@@ -166,7 +199,7 @@
           <img src="./Scarecrow.png" alt="scare-crow image">
         </figure>
         <article class="info">
-          <h1>I have bad new for you</h1>
+          <h1>I have bad news for you</h1>
           <p>
             The page you are looking for might be removed or is temporarily unavailable.  
           </p>
