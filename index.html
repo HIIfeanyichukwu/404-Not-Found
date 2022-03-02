@@ -37,37 +37,6 @@
       body {
         font-family: "Poppins", sans-serif;
       }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
     </style>
   </head>
   <body>
@@ -84,7 +53,7 @@
         text-transform: uppercase;
         font-weight: 700;
         
-        font-family: Inconsolata;
+        font-family: 'Inconsolata';
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
@@ -119,7 +88,6 @@
         line-height: 27px;
         color: #4f4f4f;
         letter-spacing: -0.035em;
-        padding-right: 2.5px;
       }
 
       button {
@@ -145,9 +113,7 @@
         font-family: 'Montserrat';
         color: #BDBDBD;
         line-height: 17px;
-        /* text-align: center; */
-        /* margin-left: 46px; */
-        /* margin-right: 42px; */
+        text-align: center;
         margin-bottom: 24px;
       }
       .footer a {
@@ -179,18 +145,65 @@
         }
 
         button {
-          font-size: 14px;
-          padding: 24px;
+          font-size: 16px;
+          padding: 26px;
         }
 
         .footer p {
-          font-size: 14px;
-          /* text-align: center; */
-          /* margin-left: 46px; */
-          /* margin-right: 42px; */
+          font-size: 16px;
         }
   
       }
+
+      @media (min-width: 1440px)
+      {
+        html {
+          border-radius: 8px;
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        note {
+          line-height: 25.18px;
+        }
+
+        .notice {
+          display: flex;
+        }
+
+        .container {
+          margin-left: 77px;
+        }
+        .info {
+          margin-left: 118.78px;
+        }
+        .info h1 {
+          font-size: 64px;
+          line-height: 94.78px;
+          /* padding-right: 48px; */
+          width: 586px;
+        }
+       
+        .info p {
+          font-size: 24px;
+          width: 381px;
+          line-height: 35.54px;
+        }
+        .note {
+          margin-bottom: 200px;
+          margin-top: 40px;
+        }
+
+        .scare-crow {
+          width: 539.22px;
+          height: 447.43px;
+        }
+
+        button {
+          width: 216px;
+          margin-bottom: 240px;
+        }
+      }
+
     </style>
     <div class="container">
       <p class="note">404 not found</p>
