@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://404demo.surge.sh">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/HIIfeanyichukwu/404-Not-Found">
       Solution
     </a>
     <span> | </span>
@@ -49,7 +49,7 @@ I used google chrome browser for development.
 
 
 - Where can I see your demo?
-  - checkout my solution [404-NOT-FOUND](https/githubpages)
+  - checkout my solution [404-NOT-FOUND](https://404demo.surge.sh)
 
 all feedback will be appreciated.
 
