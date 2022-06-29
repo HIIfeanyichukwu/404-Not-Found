@@ -79,5 +79,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - Website [your-website.com](https://{your-web-site-link})
-- GitHub [@DoIfeanyichukwu](https://{github.com/DoIfeanyichukwu})
-- Twitter [@DoIfeanyichukwu](https://{twitter.com/DoIfeanyichukwu})
+- GitHub [@HIIfeanyichukwu](https://github.com/HIIfeanyichukwu)
+- Twitter [@HIIfeanyichukwu](https://twitter.com/HIIfeanyichukwu)
